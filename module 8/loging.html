@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8c8acbc4a9.js" crossorigin="anonymous"></script>
+    <style>
+        .login-form{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+        }
+        .login-form input{
+            margin-top: 10px;
+            font-size: 1.5em;
+            padding: 5px 10px;
+        }
+       .login-form input[type="submit"]{
+        background-color: aqua;
+        color: white;
+        border-radius: 5px;
+       }
+       .login-container{
+        display: flex;
+        justify-content: center;
+        margin-top: 25px;
+       }
+       nav a{
+        text-decoration: none;
+        margin-left: 10px;
+       }
+       nav{
+        display: flex;
+        justify-content: space-between;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+           <span> <a href="">home</a>
+            <a href="">dashbord</a>
+            <a href="">inventore</a></span>
+
+            <span>
+                <a href="">loging<i class="fa-solid fa-user"></i></a>
+               <a href=""><i class="fa-solid fa-right-from-bracket"></i>logout</a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-container">
+    <form class="login-form">
+        <h1>pls loging</h1>
+        <input type="email" name="" id=""  placeholder="email">
+        <input type="password" name="" id="" placeholder="pass">
+        <input type="submit" name="" id="" placeholder="submi">
+    </form>
+</section>
+</body>
+</html>

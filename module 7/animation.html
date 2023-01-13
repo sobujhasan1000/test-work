@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes slide {
+            0%{
+                background-color: brown;
+                left: 0;
+                top: 0;
+            }
+            25%{
+                background-color: aqua;
+                top: 200px;}
+            50%{
+                background-color: black;
+                top: 0;
+            }
+            75%{ background-color: antiquewhite;
+                top: 200px;
+            }
+            100%{
+                background-color: blue;
+                left:600px;
+                top: 0;
+            }
+        }
+        .stage{
+            height: 400px;
+            width: 700px;
+            background-color: aquamarine;
+        }
+        .ball{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+           background-color: brown;
+           position: relative;
+           animation: slide 3s ease-in-out 1s infinite alternate ;
+           animation-play-state: running;
+        }
+    </style>
+</head>
+<body>
+    <h2>animation explor</h2>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+</html>
